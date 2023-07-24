@@ -1,0 +1,18 @@
+{
+    "pages": [
+        
+        "pages/index/index",
+        "pages/stepone/stepone",
+        "pages/stepTen/stepTen",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
+}
