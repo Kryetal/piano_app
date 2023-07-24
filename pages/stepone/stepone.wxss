@@ -1,0 +1,54 @@
+page{
+    background-color: #e9e8c7;
+  }
+  
+  .top{
+    width: 100%;
+    height: 190rpx;
+    text-align: center;
+    color: #ffffff;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .active {
+    opacity: 0.9;
+    background-color: rgb(17, 22, 22);
+  }
+  .keyBoard{
+    width: 100%;
+    height: 150rpx;
+    margin: 0 auto;
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .keyBoard .key{
+    flex-grow: 1;
+    width: 4.666%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 0 0 5rpx 5rpx;
+    border: 1rpx solid rgb(194, 187, 180);
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 1;
+    
+  }
+  .keyBoard .blackkey{
+      width: 4.44446%;
+      height: 65%;
+      background-color: #000000;
+      border-radius: 0 0 5rpx 5rpx;
+      border: 1rpx solid #ffffff;
+      box-sizing: border-box;
+      text-align: center;
+      position: absolute;
+      z-index: 2;
+  }
+  .voice{
+    color: #ffffff;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 120rpx;
+  }

@@ -1,0 +1,38 @@
+/* pages/index/index.wxss */
+.intro{
+    position: absolute;
+    top: 100rpx;
+    left: 75rpx;
+    font-family:"隶书";
+    font-style:inherit;
+    font-weight: bold;
+    font-size: 150rpx;
+}
+.steponebox{
+    height: 100rpx;
+    width: 200rpx;
+    top: 400rpx;
+    left: 75rpx;
+    font-weight: bold;
+    border-radius: 25rpx 25rpx;
+    border: 1rpx solid lightgrey;
+    background-color: rgb(177, 241, 250);
+    text-align: center;
+    line-height: 100rpx;
+    position: absolute;
+
+}
+.steptenbox{
+    height: 100rpx;
+    width: 200rpx;
+    top: 400rpx;
+    left: 450rpx;
+    font-weight: bold;
+    border-radius: 25rpx 25rpx;
+    border: 1rpx solid lightgrey;
+    background-color: rgb(177, 241, 250);
+    text-align: center;
+    line-height: 100rpx;
+    position: absolute;
+
+}

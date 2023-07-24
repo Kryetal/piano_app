@@ -1,0 +1,9 @@
+{
+    "pageOrientation": "landscape",
+    "usingComponents": {
+        "stepOne":"../../components/stepOne/stepOne"
+    },
+    "navigationBarTitleText": "定调辨音阶",
+    "navigationStyle": "custom"
+
+}

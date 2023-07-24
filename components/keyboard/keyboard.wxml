@@ -1,0 +1,48 @@
+<swiper current="2">
+  <swiper-item >
+  <view class="box">
+  <view class="box0">
+    <view class="bar0" hover-class="active" bindtap="play" wx:for="{{keys0}}" wx:key="index" data-num="{{item.num}}">
+    <view class="num">{{item.name}}</view>
+  </view>
+  </view>
+  <view class="b0" hover-class="active" bindtap="play" wx:for="{{blackKeys0}}" wx:key="index" data-num="{{item.num}}">
+  </view>
+  </view>
+  </swiper-item>
+  <swiper-item >
+  <view class="box">
+  <view class="bar" hover-class="active" bindtap="play" wx:for="{{keys1}}" wx:key="index" data-num="{{item.num}}">
+    <view class="num">{{item.name}}</view>
+  </view>
+  <view class="bbox">
+  <view class="b1" hover-class="active" bindtap="play" wx:for="{{blackKeys1}}" wx:key="index" data-num="{{item.num}}">
+  </view>
+  </view>
+  </view>
+  </swiper-item>
+  <swiper-item>
+    <view class="box">
+  <view class="bar" hover-class="active" bindtap="play" wx:for="{{keys2}}" wx:key="index" data-num="{{item.num}}">
+    <view class="num">{{item.name}}</view>
+  </view>
+  <view class="bbox">
+  <view class="b1" hover-class="active" bindtap="play" wx:for="{{blackKeys2}}" wx:key="index" data-num="{{item.num}}">
+  </view>
+  </view>
+  </view>
+  </swiper-item>
+  <swiper-item>
+    <view class="box">
+    <view class="box3">
+      <view class="bar3" hover-class="active" bindtap="play" wx:for="{{keys3}}" wx:key="index" data-num="{{item.num}}">
+    <view class="num">{{item.name}}</view>
+  </view>
+    </view>
+  <view class="bbox">
+  <view class="b1" hover-class="active" bindtap="play" wx:for="{{blackKeys3}}" wx:key="index" data-num="{{item.num}}">
+  </view>
+  </view>
+  </view>
+  </swiper-item>
+</swiper>

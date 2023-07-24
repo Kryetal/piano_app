@@ -1,0 +1,11 @@
+<view class="container">
+    <view class="intro">
+        我的钢琴
+    </view>
+    <view class="steponebox">
+        <navigator url="/pages/stepone/stepone">定调辨音阶</navigator>
+    </view>
+    <view class="steptenbox">
+        <navigator url="/pages/stepTen/stepTen">听音阶辨调</navigator>
+    </view>
+</view>

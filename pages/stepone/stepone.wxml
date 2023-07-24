@@ -1,0 +1,13 @@
+<view class="top">
+<stepOne mykey="{{mykey}}" id="stepOne"></stepOne>
+</view>
+<view class="keyBoard">
+  <view class="key" wx:for="{{whitekeys}}" wx:key="index" bindtap="playmusic" data-voice="{{item.voice}}" data-scale="{{item.scale}}" hover-class="active">
+    <view class="voice" style="background:{{item.bg}}">
+      {{item.voice}}
+    </view>
+  </view>
+  <view class="blackkey" wx:for="{{blackkeys}}" wx:key="index" bindtap="playmusic"  data-scale="{{item.scale}}" 
+  data-voice="{{item.voice}}" hover-class="active" style="left:{{item.left}}">
+  </view>
+</view>

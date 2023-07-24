@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "my-keyboard":"../../components/keyboard/keyboard"
+  },
+  "pageOrientation":"landscape",
+  "backgroundTextStyle":"dark",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor":  "#2e62e2",
+  "navigationBarTitleText": "听旋律辨调",
+  "navigationBarTextStyle":"white",
+  "backgroundColor": "#efefef"
+}

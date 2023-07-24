@@ -1,0 +1,55 @@
+/* components/stepOne/stepOne.wxss */
+
+.playcontainer{
+    width: 150rpx;
+    height: 150rpx;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    box-sizing: border-box;
+    left: 40%;
+    top: 15rpx;
+    position: absolute;
+}
+image{
+    width: 100rpx;
+    height: 100rpx;
+}
+.playcontainer text{
+    color: #000;
+    font-size: 17rpx;
+}
+.playcontainer .questiionN{
+    color: #000;
+    font-size: 18rpx;
+}
+
+.selectbox{
+    left: 50rpx;
+    width: 100rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    }
+.select{
+    position: relative;
+    width:100%;
+    font-size:23rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #686767;
+    }
+.option{
+    position: relative;
+    top: 73rpx;
+    left: -50rpx;
+    width:100%;
+    font-size:20rpx;
+    color: #000;
+    background-color:#97ddee;
+    overflow: scroll;
+    }

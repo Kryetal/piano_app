@@ -1,0 +1,34 @@
+ <view class="guide">
+<text class="title">根据听到的音频，选择对应的音组</text>
+<view class="centered-image" hover-class="active">
+  <image src="/assets/image/trumpet.png" bindtap="startStep" mode="widthFix" class="img" hover-class="active"
+  ></image>
+</view>
+
+<view class="select">
+<view hover-class="active" class="ul" bindtap="getMyKey" data-key="{{1}}">
+  <text >低音3</text>
+  </view>
+  <view hover-class="active" class="ul" bindtap="getMyKey" data-key="{{2}}">
+  <text  >低音2</text>
+  </view>
+  <view hover-class="active" class="ul" bindtap="getMyKey" data-key="{{3}}">
+  <text >低音1</text>
+  </view>
+  <view hover-class="active" class="ul" bindtap="getMyKey" data-key="{{4}}">
+  <text >中央C</text>
+  </view>
+  <view hover-class="active" class="ul" bindtap="getMyKey" data-key="{{5}}">
+  <text >高音1</text>
+  </view>
+  <view hover-class="active" class="ul" bindtap="getMyKey" data-key="{{6}}">
+  <text >高音2</text>
+  </view>
+  <view hover-class="active" class="ul" bindtap="getMyKey" data-key="{{7}}">
+  <text>高音3</text>
+  </view>
+</view>
+</view>
+<view class="bot">
+  <my-keyboard></my-keyboard>
+</view>

@@ -1,0 +1,20 @@
+<!--components/stepOne/stepOne.wxml-->
+<view class="playcontainer">
+<view class="questiionN">第{{questionIndex>questionNum?10:questionIndex}}/{{questionNum}}题</view>
+<image src="/assets/image/trumpet.png" mode="aspectFit" bindtap="playscale"/>
+<text>点击播放音符</text>
+</view>
+
+<view class="selectbox">
+  <view class="select" bindtap="showSelect" id="{{index}}">{{selectList.default}}
+  </view>
+<view class="selectbox">
+  <view class="option" hidden="{{selectList.hidden}}" bindtap="SelectVal" >
+     <view wx:for="{{selectList.major}}" data-index="{{index}}"  wx:key="index">
+     {{item}}
+     </view>
+   </view>
+</view>
+</view>
+
+
