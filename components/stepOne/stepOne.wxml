@@ -1,7 +1,7 @@
 <!--components/stepOne/stepOne.wxml-->
 <view class="playcontainer">
 <view class="questiionN">第{{questionIndex>questionNum?10:questionIndex}}/{{questionNum}}题</view>
-<image src="/assets/image/trumpet.png" mode="aspectFit" bindtap="playscale"/>
+<image src="/assets/image/trumpet.png" mode="aspectFit" bindtap="playscale" class="playicon"/>
 <text>点击播放音符</text>
 </view>
 
@@ -15,6 +15,10 @@
      </view>
    </view>
 </view>
+</view>
+
+<view class="returnbox">
+<image src="/assets/image/return.png" mode="aspectFit" class="reicon" bindtap="returnhome"/>
 </view>
 
 

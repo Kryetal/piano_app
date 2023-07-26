@@ -3,7 +3,7 @@
         我的钢琴
     </view>
     <view class="steponebox">
-        <navigator url="/pages/stepone/stepone">定调辨音阶</navigator>
+        <navigator url="/pages/stepone/stepone">定调辨音符</navigator>
     </view>
     <view class="steptenbox">
         <navigator url="/pages/stepTen/stepTen">听音阶辨调</navigator>

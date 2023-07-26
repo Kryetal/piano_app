@@ -13,7 +13,7 @@
     top: 15rpx;
     position: absolute;
 }
-image{
+.playicon{
     width: 100rpx;
     height: 100rpx;
 }
@@ -27,7 +27,7 @@ image{
 }
 
 .selectbox{
-    left: 50rpx;
+    left: 60rpx;
     width: 100rpx;
     display: flex;
     align-items: center;
@@ -46,10 +46,20 @@ image{
 .option{
     position: relative;
     top: 73rpx;
-    left: -50rpx;
+    left: -60rpx;
     width:100%;
     font-size:20rpx;
     color: #000;
     background-color:#97ddee;
     overflow: scroll;
+    }
+    .returnbox{
+        position: absolute;
+        left: 0rpx;
+        width: 50rpx;
+        height: 50rpx;
+    }
+    .reicon{
+        width: 30rpx;
+        height: 30rpx;
     }

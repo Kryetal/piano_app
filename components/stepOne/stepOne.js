@@ -129,6 +129,11 @@ Component({
      * 组件的方法列表
      */
     methods: {
+        returnhome(){
+            wx.navigateTo({
+              url: '/pages/index/index',
+            })
+        },
         nextQuestion(){
             this.setData({
                 tone:0,
@@ -163,7 +168,7 @@ Component({
                 else{
                     wx.showModal({
                       title: '回答错误，请继续努力',
-                      content: '正确的音阶为'+this.data.questionKey,
+                      content: '正确的音符为'+this.data.questionKey,
                       showCancel:false,
                       complete: () => {
                         this.setData({questionIndex:this.data.questionIndex+1,
