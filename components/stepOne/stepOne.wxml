@@ -18,7 +18,7 @@
 </view>
 
 <view class="returnbox">
-<image src="/assets/image/return.png" mode="aspectFit" class="reicon" bindtap="returnhome"/>
+<image src="/assets/image/return.png" mode="scaleToFill" class="reicon" bindtap="returnhome"/>
 </view>
 
 

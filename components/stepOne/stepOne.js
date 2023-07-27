@@ -130,7 +130,7 @@ Component({
      */
     methods: {
         returnhome(){
-            wx.navigateTo({
+            wx.reLaunch({
               url: '/pages/index/index',
             })
         },

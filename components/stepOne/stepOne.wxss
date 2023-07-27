@@ -55,11 +55,11 @@
     }
     .returnbox{
         position: absolute;
-        left: 0rpx;
+        left: 6rpx;
         width: 50rpx;
         height: 50rpx;
     }
     .reicon{
-        width: 30rpx;
-        height: 30rpx;
+        width: 26rpx;
+        height: 34rpx;
     }
