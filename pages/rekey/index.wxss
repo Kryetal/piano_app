@@ -1,0 +1,55 @@
+.testaudio{
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  left: 75%;
+  top: 16%;
+  pointer-events: auto;
+  z-index: -8;
+}
+.standardaudio{
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  left: 12%;
+  top: 16%;
+  z-index: -8;
+}
+.scoreboardnum{
+  position: absolute;
+  width: 150rpx;
+  height: 70rpx;
+  /* background-color: rgb(173, 225, 241); */
+  left: 50%;
+  transform: translate(-50%);
+  top: 25%;
+  display: flex;
+  font-size: 37rpx;
+}
+.score{
+  position: absolute;
+  left: 10rpx;
+  color: rgb(13, 167, 51);
+  font-weight: 540;
+}
+.total{
+  position: absolute;
+  left: 91rpx;
+  color: rgb(10, 131, 238);
+  font-weight: 540;
+}
+.myvoice{
+  position: absolute;
+  left: 79%;
+  top: 20%;
+  width: 40rpx;
+  height: 40rpx;
+  text-align: center;
+  font-size: 26rpx;
+  font-weight: bold;
+  color: rgb(30, 167, 42);
+  line-height: 40rpx;
+  border-radius: 50rpx;
+  pointer-events: none;
+  z-index: -7;
+}

@@ -1,0 +1,20 @@
+<view class="mask"></view>
+<scroll-view class="keyBoard" scroll-x="true" scroll-left="50rpx" enhanced="true" show-scrollbar="false">
+  <view class="key" wx:for="{{whitekeys1}}" wx:key="index" bindtap="playmusic" data-voice="{{item.voice}}" data-scale="{{item.scale}}" style="left: {{index*(81/2)+'rpx'}};width: {{161/4+'rpx'}};" hover-class="whiteactive" >
+    <view class="voice" style="background:{{item.bg}}">
+      {{item.voice}}
+    </view>
+  </view>
+  <view class="key {{play_standard_flag?'whiteactive':''}}" wx:for="{{whitekeys2}}" wx:key="index" bindtap="playmusic" data-voice="{{item.voice}}" data-scale="{{item.scale}}" style="left: {{12*(81/2)+'rpx'}};width: {{161/4+'rpx'}};" hover-class="whiteactive" >
+    <view class="voice {{play_standard_flag?'standardscaleactive':''}}">
+      {{item.voice}}
+    </view>
+  </view>
+  <view class="key" wx:for="{{whitekeys3}}" wx:key="index" bindtap="playmusic" data-voice="{{item.voice}}" data-scale="{{item.scale}}" style="left: {{(13+index)*(81/2)+'rpx'}};width: {{161/4+'rpx'}};" hover-class="whiteactive" >
+    <view class="voice" style="background:{{item.bg}}">
+      {{item.voice}}
+    </view>
+  </view>
+  <view class="blackkey" wx:for="{{blackkeys}}" wx:key="index" bindtap="playmusic"  data-scale="{{item.scale}}" data-voice="{{item.voice}}" hover-class="blackactive" style="left:{{item.left}}">
+  </view>
+</scroll-view>

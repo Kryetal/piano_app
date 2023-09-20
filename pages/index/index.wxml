@@ -1,11 +1,5 @@
 <view class="container">
-    <view class="intro">
-        我的钢琴
-    </view>
-    <view class="steponebox">
-        <navigator url="/pages/stepone/stepone">定调辨音符</navigator>
-    </view>
-    <view class="steptenbox">
-        <navigator url="/pages/stepTen/stepTen">听音阶辨调</navigator>
-    </view>
+      <image src="../../assets/image/bgimage.png"  class="bgimage"/>
+      <image src="../../assets/image/renjian.png" mode="scaleToFill" class="rekey" bindtap="torekey"/>
+      <image src="../../assets/image/rendiao.png" mode="scaleToFill" class="remajor" bindtap="toremajor"/>
 </view>

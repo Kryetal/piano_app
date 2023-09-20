@@ -1,0 +1,43 @@
+<view class="container">
+  <image src="../../assets/image/subbgimage.jpg" class="bgimage"/>
+  <image src="../../assets/image/remajorscoreboard.png" mode="scaleToFill" class="scoreboard"/>
+  <image src="../../assets/image/testaudio.png" mode="scaleToFill" class="testaudio" bindtap="playscale"/>
+  <view class="testtone">{{vocal}}</view>
+  <view class="leftbotton" style="left: 71%;" bindtap="subvocal"></view>
+  <view class="rightbotton" style="left: 88%;" bindtap="addvocal"></view>
+
+  <view class="standardselectarea">
+      <image src="../../assets/image/standardaudioselector.png" mode="scaleToFill" class="standardaudioselector" bindtap="playstandardscale"/>
+      <view class="selectscale">{{scaleindex+1}}</view>
+      <view class="selectmajor">{{majorshow}}</view>
+      <view class="upbotton" style="left: 11%;" bindtap="addscale"></view>
+      <view class="upbotton" style="left: 68%;" bindtap="addmajorindex"></view>
+      <view class="downbotton" style="left: 11%;" bindtap="subscale"></view>
+      <view class="downbotton" style="left: 68%;" bindtap="submajorindex"></view>
+  </view>
+
+
+  
+  <image src="../../assets/image/return.png" mode="scaleToFill" class="returnicon" bindtap="returnhome"/>
+  <image src="../../assets/image/reminder.png" mode="scaleToFill" class="remindericon"/>
+  <view class="playedmajor">{{playedmajor}}</view>
+
+
+  <view wx:if="{{iconflag==1}}">
+    <image src="../../assets/image/common.png" mode="scaleToFill" class="commonicon"/>
+  </view>
+  <view wx:if="{{iconflag==2}}">
+    <image src="../../assets/image/right.png" mode="scaleToFill" class="righticon"/>
+  </view>
+  <view wx:if="{{iconflag==3}}">
+    <image src="../../assets/image/error.png" mode="scaleToFill" class="erroricon"/>
+  </view>
+
+  <view class="scoreboardnum">
+    <view class="score">{{score_tp}}</view>
+    <view class="score" style="left: 40rpx;">{{score_op}}</view>
+    <view class="total">{{total_tp}}</view>
+    <view class="total" style="left: 121rpx;">{{total_op}}</view>
+  </view>
+  <keyboard bind:comparemajor="majorcompare" id="keyboard"></keyboard>
+</view>

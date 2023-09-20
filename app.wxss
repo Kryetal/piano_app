@@ -1,11 +1,55 @@
-/**app.wxss**/
 .container {
-  height: 1500rpx;
-  width: 750rpx;
-  display: flex;
-  background-color: antiquewhite;
-  align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
-  position: relative;
+  position: fixed;
+  height: 100%;
+  width: 100% ;
+  z-index: -100;
 } 
+.bgimage{
+  height: 100%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  display: block;
+  z-index: -1000;
+  position: absolute;
+}
+.scoreboard{
+  position: absolute;
+  width: 300rpx;
+  height: 150rpx;
+  left: 50%;
+  transform: translate(-50%);
+  top: 6%;
+  z-index: -10;
+}
+.commonicon{
+  position: absolute;
+  width: 80rpx;
+  height: 120rpx;
+  left: 58%;
+  top: 20%;
+  z-index: -5;
+}
+.righticon{
+  position: absolute;
+  width: 85rpx;
+  height: 120rpx;
+  left: 58%;
+  top: 19%;
+  z-index: -5;
+}
+.erroricon{
+  position: absolute;
+  width: 80rpx;
+  height: 120rpx;
+  left: 59%;
+  top: 18%;
+  z-index: -5;
+}
+.returnicon{
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  left: 1%;
+  top: 2%;
+}

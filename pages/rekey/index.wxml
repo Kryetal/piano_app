@@ -1,0 +1,26 @@
+<view class="container">
+  <image src="../../assets/image/subbgimage.jpg" class="bgimage"/>
+  <image src="../../assets/image/scoreboard.png" mode="scaleToFill" class="scoreboard"/>
+  <image src="../../assets/image/testaudio.png" mode="scaleToFill" class="testaudio" bindtap="playscale"/>
+  <image src="../../assets/image/standardaudio.png" mode="scaleToFill" class="standardaudio" bindtap="playstandardscale"/>
+  <image src="../../assets/image/return.png" mode="scaleToFill" class="returnicon" bindtap="returnhome"/>
+  <view class="myvoice">{{myvoice}}</view>
+
+  <view wx:if="{{iconflag==1}}">
+    <image src="../../assets/image/common.png" mode="scaleToFill" class="commonicon"/>
+  </view>
+  <view wx:if="{{iconflag==2}}">
+    <image src="../../assets/image/right.png" mode="scaleToFill" class="righticon"/>
+  </view>
+  <view wx:if="{{iconflag==3}}">
+    <image src="../../assets/image/error.png" mode="scaleToFill" class="erroricon"/>
+  </view>
+
+  <view class="scoreboardnum">
+    <view class="score">{{score_tp}}</view>
+    <view class="score" style="left: 40rpx;">{{score_op}}</view>
+    <view class="total">{{total_tp}}</view>
+    <view class="total" style="left: 121rpx;">{{total_op}}</view>
+  </view>
+  <keyboard bind:compare="keycompare" id="keyboard"></keyboard>
+</view>

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "keyboard":"../../compoents/keyboard/index"
+  },
+  "pageOrientation": "landscape",
+  "navigationStyle": "custom"
+
+}

@@ -1,0 +1,138 @@
+.remindericon{
+  position: absolute;
+  width: 200rpx;
+  height: 100rpx;
+  left: 35%;
+  top: 40%;
+  pointer-events: none;
+  z-index: 3;
+}
+.playedmajor{
+  position: absolute;
+  width: 23rpx;
+  height: 32rpx;
+  left: 55.4%;
+  top: 52%;
+  text-align: center;
+  font-weight: 800;
+  font-size: 27rpx;
+  color: white;
+  pointer-events: none;
+  z-index: 4;
+}
+.testaudio{
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  left: 75%;
+  top: 16%;
+  z-index: -8;
+}
+.testtone{
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  left: 79.2%;
+  top: 19%;
+  font-size: 30rpx;
+  font-weight: 800;
+  color: rgb(36, 180, 36);
+  text-align: center;
+  pointer-events: none;
+  z-index: 8;
+}
+.standardselectarea{
+  position: absolute;
+  width: 180rpx;
+  height: 140rpx;
+  left: 6%;
+  top: 7%;
+  z-index: -8;
+}
+.selectscale{
+  position: absolute;
+  left: 14%;
+  top: 34%;
+  font-size: 37rpx;
+  font-weight: 700;
+  color: rgb(78, 78, 253);
+  pointer-events: none;
+  z-index: -4;
+}
+.selectmajor{
+  position: absolute;
+  left: 70%;
+  top: 35%;
+  font-size: 36rpx;
+  color: rgb(78, 78, 253);
+  font-weight: 800;
+  pointer-events: none;
+  z-index: -4;
+}
+.upbotton{
+  position: absolute;      
+  width: 0rpx;
+  height: 0rpx;
+  top: 3%;
+  border-style: solid;
+  border-color: transparent transparent #2948fa transparent;
+  border-width: 16rpx;
+}
+.downbotton{
+  position: absolute;      
+  width: 0rpx;
+  height: 0rpx;
+  top: 82%;
+  border-style: solid;
+  border-color: #2948fa transparent transparent transparent;
+  border-width: 16rpx;
+}
+.leftbotton{
+  position: absolute;      
+  width: 0rpx;
+  height: 0rpx;
+  top: 21%;
+  border-style: solid;
+  border-color: transparent #167909 transparent transparent;
+  border-width: 16rpx;
+}
+.rightbotton{
+  position: absolute;      
+  width: 0rpx;
+  height: 0rpx;
+  top: 21%;
+  border-style: solid;
+  border-color: transparent  transparent transparent #167909;
+  border-width: 16rpx;
+}
+.standardaudioselector{
+  position: absolute;
+  width: 160rpx;
+  height: 70rpx;
+  left: 6%;
+  top: 28%;
+  z-index: -5;
+}
+.scoreboardnum{
+  position: absolute;
+  width: 150rpx;
+  height: 70rpx;
+  /* background-color: rgb(173, 225, 241); */
+  left: 50%;
+  transform: translate(-50%);
+  top: 25%;
+  display: flex;
+  font-size: 37rpx;
+}
+.score{
+  position: absolute;
+  left: 10rpx;
+  color: rgb(13, 167, 51);
+  font-weight: 540;
+}
+.total{
+  position: absolute;
+  left: 91rpx;
+  color: rgb(10, 131, 238);
+  font-weight: 540;
+}
